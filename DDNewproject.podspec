@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DDNewproject"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of DDNewproject."
 
 #Pod工程里带有四级目录初版
@@ -29,6 +29,6 @@ s.source           = { :git => 'https://github.com/XiaoMuXiXi/DDNewproject.git',
 s.ios.deployment_target = '9.0'
 
 #创建子级目录的话,父级目录需要去掉,并且所有的依赖关系都由子类自己去处理
-#s.source_files = 'DDNewproject/DDNewproject/**/*.{h,m}'
+s.source_files = 'DDNewproject/DDNewproject/**/*.{h,m}'
 
 end
